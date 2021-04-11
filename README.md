@@ -1,8 +1,8 @@
-# pie_progress
+# react_pie_progress
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/pie_progress.svg)](https://www.npmjs.com/package/pie_progress) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react_pie_progress.svg)](https://www.npmjs.com/package/react_pie_progress) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
