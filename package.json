@@ -1,10 +1,10 @@
 {
-  "name": "pie_progress",
+  "name": "react_pie_progress",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "k2288",
   "license": "MIT",
-  "repository": "k2288/pie_progress",
+  "repository": "k2288/react_pie_progress",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

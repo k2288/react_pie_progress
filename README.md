@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save pie_progress
+npm install --save react_pie_progress
 ```
 
 ## Usage
