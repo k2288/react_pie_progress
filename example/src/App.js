@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'pie_progress'
+import { PieProgress } from 'pie_progress'
 import 'pie_progress/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <PieProgress rotation={160} backColor="#fff" forColor="red" />
 }
 
 export default App

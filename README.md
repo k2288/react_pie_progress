@@ -15,12 +15,12 @@ npm install --save pie_progress
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'pie_progress'
+import PieProgress from 'pie_progress'
 import 'pie_progress/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <PieProgress rotation={160} backColor="#fff" forColor="#ff0000" />
   }
 }
 ```

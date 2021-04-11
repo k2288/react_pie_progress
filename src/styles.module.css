@@ -1,9 +1,28 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+body {
+  margin: 50px;
+}
+.radial-progress {
+  width: 120px;
+  height: 120px;
+  background-color: #d6dadc;
+  border-radius: 50%;
+}
+.radial-progress .circle .mask, .radial-progress .circle .fill {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 50%;
+  transition: -webkit-transform 1s;
+  transition: -ms-transform 1s;
+  transition: transform 1s;
+  -webkit-backface-visibility: hidden;
+}
+.radial-progress .circle .mask {
+  clip: rect(0px,120px,120px,60px);
+}
+.radial-progress .circle .mask .fill {
+  clip: rect(0px,60px,120px,0px);
+  background-color: #97a71d;
 }

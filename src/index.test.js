@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { PieProgress } from '.'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(PieProgress).toBeTruthy()
   })
 })
