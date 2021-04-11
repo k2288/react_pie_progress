@@ -15,8 +15,8 @@ npm install --save react_pie_progress
 ```jsx
 import React, { Component } from 'react'
 
-import PieProgress from 'pie_progress'
-import 'pie_progress/dist/index.css'
+import { PieProgress } from 'react_pie_progress'
+import 'react_pie_progress/dist/index.css'
 
 class Example extends Component {
   render() {
